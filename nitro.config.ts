@@ -4,6 +4,9 @@ export default defineNitroConfig({
   routeRules: {
     "/weather/**": {
       cors: true
+    },
+    "/image/**": {
+      cors: true
     }
   }
 });
